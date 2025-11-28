@@ -71,4 +71,4 @@ python main.py
 
 ## Resources
 
-[Phil Schmid Gemini 3 Agent Blog](https://www.philschmid.de/building-agents#step-1-basic-text-generation-and-abstraction)
+[Phil Schmid Gemini 3 Agent Blog](https://www.philschmid.de/building-agents)
