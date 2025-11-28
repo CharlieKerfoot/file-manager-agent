@@ -12,7 +12,7 @@ def main():
     load_dotenv()
     console = Console()
     
-    agent = Agent(model="gemini-2.5-flash", tools=tools_map)
+    agent = Agent(model="gemini-3-pro-preview", tools=tools_map)
     
     console.print(Panel.fit("File Manager Agent", style="bold blue"))
     console.print("Type [bold red]exit[/bold red] to quit.\n")
