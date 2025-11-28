@@ -1,6 +1,6 @@
 # File Manager Agent
 
-A powerful CLI-based AI agent that helps you manage your files and directories using natural language commands. Built with Google's Gemini API and Python.
+A powerful CLI-based AI agent using Google Gemini 3 that helps you manage your files and directories using natural language commands.
 
 ## Features
 
@@ -64,29 +64,11 @@ python main.py
 ### Example Commands
 
 - "Create a new directory called 'notes' and add a file named 'ideas.txt' with some startup ideas."
+- "Make a new directory called 'bird_app' and build out a node.js app with a server and client centered around bird watching."
 - "Find all python files in the current directory."
 - "Rename 'old_project' to 'archive/old_project'."
 - "Read the contents of 'README.md'."
 
-## Project Structure
+## Resources
 
-- `main.py`: Entry point of the application. Handles the CLI loop and UI.
-- `agent.py`: Contains the `Agent` class which manages the interaction with the Gemini API.
-- `tools.py`: Definitions and implementations of the file system tools (read, write, list, etc.).
-- `pyproject.toml`: Project configuration and dependencies.
-
-## Tools Available
-
-- `read_file`: Read content of a file.
-- `write_file`: Write content to a file.
-- `make_file`: Create a new empty file.
-- `make_dir`: Create a new directory.
-- `list_dir`: List contents of a directory.
-- `rename_file_or_directory`: Rename or move files/directories.
-- `remove_file`: Delete a file.
-- `remove_directory`: Delete a directory.
-- `search_files`: Search for files matching a pattern.
-
-## License
-
-[MIT License](LICENSE)
+[Phil Schmid Gemini 3 Agent Blog](https://www.philschmid.de/building-agents#step-1-basic-text-generation-and-abstraction)
